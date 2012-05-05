@@ -1,0 +1,2 @@
+# Module org.devince.tinyworld.tinygalaxy_html
+# RPC service class, partial path of RPC policy file

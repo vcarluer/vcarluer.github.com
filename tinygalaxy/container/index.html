@@ -1,0 +1,24 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+	<script type="text/javascript">
+	function init() {
+		var gameframe = document.getElementById('gameframe');
+		gameframe.onload = foc;
+	}
+	
+	function foc() {
+		alert("hey");
+		var gameframe = document.getElementById('gameframe');
+		gameframe.contentDocument.getElementById('container').focus();
+	}
+	
+	window.onload = init;
+	</script>
+</head>
+<body>
+<iframe onload="foc()" id="gameframe" src="http://vincent.carluer.free.fr/tinygalaxy/index.html" width="100%" height="100%" frameborder="0" />
+
+</body>
+</html>
