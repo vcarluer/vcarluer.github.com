@@ -1,0 +1,71 @@
+#galogo { 
+/* Dans cette methode inutile d'ajouter display: block un div est block par defaut mais vous le pouvez */ 
+background : transparent url("../img/gamers_associate.png") no-repeat; 
+height : 640px; 
+width : 667px; 
+margin : 0 auto; 
+}
+
+#imglogo { 
+display: block; 
+margin: 0 auto; 
+height: 320px;
+width: 334px;
+}
+
+#divhead {
+display: block; 
+margin: 0 auto;
+height: 320px;
+width: 334px;
+}
+
+#imgsa { 
+  display: block; 
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+}
+
+#divsa {
+  display: block;
+  margin-top: 96px;
+  text-align: center;
+  height: 146px;
+}
+
+#divabout {
+  display: block;
+  margin-top: 96px;
+  text-align: center;
+  height:100%;
+}
+
+a.about { 
+    color: #ffffff ; 
+}
+
+a.contact { 
+    margin-left: 42px;
+    color: #ffffff ; 
+}
+
+#divfoot {
+    display: block; 
+    text-align: center;
+    height: 200px; /*288px */
+}
+
+#txtfoot {
+    display: block; 
+    text-align: center;
+    top: 100%;
+    position:relative;
+}
+
+#divback {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 480px;
+    height: 100%;
+}
