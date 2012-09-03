@@ -38,7 +38,7 @@ width: 334px;
   display: block;
   margin-top: 96px;
   text-align: center;
-  height: 146px;
+  height: 100%;
 }
 
 #divabout {
@@ -60,7 +60,7 @@ a.contact {
 #divfoot {
     display: block; 
     text-align: center;
-    height: 200px; /*288px */
+    /*height: 200px; */ /*288px */
 }
 
 #txtfoot {
