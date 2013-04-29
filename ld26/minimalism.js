@@ -12,7 +12,7 @@ $(document).click(function() {
 
 $(document).keyup(function(key) {
 	if (!solutionFound) {
-		if (key.which == 97) {
+		if (key.which == 97 || key.which == 49) {
 			$("#q").text("1");
 			$("#info").text("YOU ARE THE BEST");
 			$("#info").css("color", "green");		
